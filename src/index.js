@@ -12,3 +12,10 @@ function component() {
   }
   
   document.body.appendChild(component());
+
+
+console.log("hello world")
+
+
+const content = document.querySelector("#content")
+content.textContent = "hello i am content divveee"
