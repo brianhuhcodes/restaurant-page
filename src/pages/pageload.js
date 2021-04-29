@@ -22,10 +22,12 @@ const pageLoad = () => {
     inputhome.type = "radio"
     inputhome.id = "tab1"
     inputhome.name = 'tab'
+    inputhome.checked = true
     labelhome.className= "tabButton"
     labelhome.htmlFor = "tab1"
     labelhome.textContent = 'Home'
     tabhome.className = 'tab'
+    bodycontenthome.className = 'content'
 
     bodycontenthome.textContent = 'home content'
 
@@ -43,6 +45,7 @@ const pageLoad = () => {
     labelmenu.textContent = 'Menu'
     tabmenu.className = 'tab'
     bodycontentmenu.textContent = 'menu content'
+    bodycontentmenu.className = 'content'
 
     tabsy.append(inputmenu, labelmenu, tabmenu)
     tabmenu.append(bodycontentmenu)
@@ -56,9 +59,12 @@ const pageLoad = () => {
     labelcontact.textContent = 'Contact'
     tabcontact.className = 'tab'
     bodycontentcontact.textContent = 'contact content'
-    
+    bodycontentcontact.className = 'content'
+
     tabsy.append(inputcontact, labelcontact, tabcontact)
     tabcontact.append(bodycontentcontact)
 }
+
+//maybe just put one body content and change that eveyrtime clicked the tab and add a div inside the content div
 
 export { pageLoad };
