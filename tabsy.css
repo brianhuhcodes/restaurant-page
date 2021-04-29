@@ -18,8 +18,20 @@
     transform: translateY(0);
   }
 }
+
+body {
+  display: flex;
+  margin-top: 0;
+  background-color: blanchedalmond;
+}
+
+#content {
+  margin: auto;
+}
+
+
 .tabsy > button {
-  width: 100%;
+  width: 600px;
   font-family: inherit;
   font-size: 100%;
   margin: 0;
@@ -36,6 +48,7 @@
   color: #F5F5F5;
   text-align: center;
   transition: all 200ms ease-in-out;
+  width: 200px;
 }
 .tabsy > input {
   display: none;
@@ -43,12 +56,15 @@
 .tabsy > input:checked + label + .tab {
   display: block;
 }
+
+
 .tabsy > input:checked + label + .tab > .content {
   -webkit-animation: showTab 200ms ease-in-out;
   animation: showTab 200ms ease-in-out;
+
 }
 .tabsy > .tab {
-  background: #fff;
+  background: blanchedalmond;
   display: none;
 }
 @media screen and (min-width: 768px) {
@@ -62,7 +78,7 @@
     cursor: pointer;
   }
   .tabsy > input:checked + label {
-    background: #fff;
+    background: blanchedalmond;
     color: #5a5243;
   }
   .tabsy > .tab {
