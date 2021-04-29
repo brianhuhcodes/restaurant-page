@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.21",
+    "sass": "^1.32.11",
     "tabsy-css": "^1.0.0"
   }
 }
