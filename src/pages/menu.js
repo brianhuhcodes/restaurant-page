@@ -1,0 +1,5 @@
+const menuLoad = () => {
+
+}
+
+export { menuLoad }

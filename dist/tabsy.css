@@ -25,8 +25,17 @@ body {
   background-color: blanchedalmond;
 }
 
+
 #content {
+  display: flex;
   margin: auto;
+  flex-direction: column;
+}
+
+.title {
+  margin: 30px auto;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -62,6 +71,7 @@ body {
   -webkit-animation: showTab 200ms ease-in-out;
   animation: showTab 200ms ease-in-out;
 
+
 }
 .tabsy > .tab {
   background: blanchedalmond;
@@ -71,6 +81,7 @@ body {
   .tabsy {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 30px;
   }
   .tabsy > .tabButton {
     order: 1;
@@ -87,3 +98,8 @@ body {
 }
 
 /*# sourceMappingURL=tabsy.css.map */
+
+
+.contentbody {
+  display: flex;
+}
