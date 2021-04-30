@@ -78,6 +78,8 @@ const pageLoad = () => {
     tabsy.append(inputcontact, labelcontact, tabcontact)
     // tabcontact.append(bodycontentcontact)
 
+
+    homeLoad()
     labelhome.addEventListener("click", function() {
         contentbody.innerHTML = ""
         homeLoad()}
