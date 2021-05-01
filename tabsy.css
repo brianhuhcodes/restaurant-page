@@ -30,6 +30,8 @@ body {
   display: flex;
   margin: auto;
   flex-direction: column;
+  font-family: 'Courier New', Courier, monospace;
+
 }
 
 .title {
@@ -58,6 +60,7 @@ body {
   text-align: center;
   transition: all 200ms ease-in-out;
   width: 200px;
+  height: 20px;
 }
 .tabsy > input {
   display: none;
@@ -89,11 +92,14 @@ body {
     cursor: pointer;
   }
   .tabsy > input:checked + label {
-    background: blanchedalmond;
+    background: rgb(255, 215, 169);
     color: #5a5243;
   }
   .tabsy > .tab {
     order: 2;
+  }
+  img {
+    width: 30em;
   }
 }
 
@@ -103,5 +109,22 @@ body {
 .contentbody {
   display: flex;
   flex-direction: column;
+  margin: auto;
 
+}
+
+img {
+  width: 30em;
+}
+
+.intro {
+  margin-top: 30px;
+}
+
+.info {
+  margin-top: 30px;
+}
+
+.para {
+  margin-top: 30px;
 }

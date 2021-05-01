@@ -10,6 +10,26 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/pages/img/al-pastor-menu.jpg":
+/*!******************************************!*\
+  !*** ./src/pages/img/al-pastor-menu.jpg ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"247d6ca698d4c926bbbdef98a0d567cf.jpg\");\n\n//# sourceURL=webpack://restaurant-page/./src/pages/img/al-pastor-menu.jpg?");
+
+/***/ }),
+
+/***/ "./src/pages/img/al-pastor.jpg":
+/*!*************************************!*\
+  !*** ./src/pages/img/al-pastor.jpg ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"87544ffb6da1a2e65ef00cae6c50035d.jpg\");\n\n//# sourceURL=webpack://restaurant-page/./src/pages/img/al-pastor.jpg?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -26,7 +46,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pag
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"contactLoad\": () => (/* binding */ contactLoad)\n/* harmony export */ });\nconst contactLoad = () => {\r\n    let contentbody = document.querySelector(\".contentbody\")\r\n    let contactus = document.createElement('div')\r\n    let info = document.createElement('div')\r\n\r\n    contactus.className = 'intro'\r\n    info.className = 'para'\r\n\r\n    contactus.textContent = \"Contact U\"\r\n    info.textContent = \"info@mehicotaco.com\"\r\n\r\n    contentbody.append(contactus, info)\r\n}\r\n\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/pages/contact.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"contactLoad\": () => (/* binding */ contactLoad)\n/* harmony export */ });\nconst contactLoad = () => {\r\n    let contentbody = document.querySelector(\".contentbody\")\r\n    let contactus = document.createElement('div')\r\n    let info = document.createElement('div')\r\n\r\n    contactus.className = 'intro'\r\n    info.className = 'info'\r\n\r\n    contactus.textContent = \"Contact Us\"\r\n    info.textContent = \"info@mehicotaco.com\"\r\n\r\n    contentbody.append(contactus, info)\r\n}\r\n\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/pages/contact.js?");
 
 /***/ }),
 
@@ -36,7 +56,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"homeLoad\": () => (/* binding */ homeLoad)\n/* harmony export */ });\nconst homeLoad = () => {\r\n    let contentbody = document.querySelector(\".contentbody\")\r\n    let intro = document.createElement('div')\r\n    let para = document.createElement('div')\r\n\r\n    intro.className = 'intro'\r\n    para.className = 'para'\r\n\r\n    intro.textContent = \"Taco from Mehico\"\r\n    para.textContent = \"Get your authentic taco from us\"\r\n\r\n    contentbody.append(intro, para)\r\n}\r\n\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/pages/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"homeLoad\": () => (/* binding */ homeLoad)\n/* harmony export */ });\n/* harmony import */ var _img_al_pastor_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./img/al-pastor.jpg */ \"./src/pages/img/al-pastor.jpg\");\n\r\n\r\nconst homeLoad = () => {\r\n    let contentbody = document.querySelector(\".contentbody\")\r\n    let homeimg = document.createElement('img')\r\n    let intro = document.createElement('div')\r\n    let para = document.createElement('div')\r\n\r\n    homeimg.className = 'homeimg'\r\n    intro.className = 'intro'\r\n    para.className = 'para'\r\n\r\n    intro.textContent = \"Taco from Mehico\"\r\n    para.textContent = \"Get your authentic taco from us\"\r\n    // homeimg.setAttribute('src', './img/al-pastor.jpg')\r\n    homeimg.src = _img_al_pastor_jpg__WEBPACK_IMPORTED_MODULE_0__.default\r\n    contentbody.append(homeimg, intro, para)\r\n}\r\n\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/pages/home.js?");
 
 /***/ }),
 
@@ -46,7 +66,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"menuLoad\": () => (/* binding */ menuLoad)\n/* harmony export */ });\nconst menuLoad = () => {\r\n    let contentbody = document.querySelector(\".contentbody\")\r\n    let menu = document.createElement('div')\r\n    let description = document.createElement('div')\r\n\r\n    menu.className = 'intro'\r\n    description.className = 'para'\r\n\r\n    menu.textContent = \"Al Pastor\"\r\n    description.textContent = \"We got the one and only Al Pastor from Mehico\"\r\n\r\n    contentbody.append(menu, description)\r\n}\r\n\r\n\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/pages/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"menuLoad\": () => (/* binding */ menuLoad)\n/* harmony export */ });\n/* harmony import */ var _img_al_pastor_menu_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./img/al-pastor-menu.jpg */ \"./src/pages/img/al-pastor-menu.jpg\");\n\r\n\r\nconst menuLoad = () => {\r\n    let contentbody = document.querySelector(\".contentbody\")\r\n    let menuimg = document.createElement('img')\r\n    let menu = document.createElement('div')\r\n    let description = document.createElement('div')\r\n\r\n    menuimg.className = 'homeimg'\r\n    menu.className = 'intro'\r\n    description.className = 'para'\r\n\r\n    menuimg.src = _img_al_pastor_menu_jpg__WEBPACK_IMPORTED_MODULE_0__.default\r\n    menu.textContent = \"Al Pastor\"\r\n    description.textContent = \"We got the one and only Al Pastor from Mehico\"\r\n\r\n    contentbody.append(menuimg, menu, description)\r\n}\r\n\r\n\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/pages/menu.js?");
 
 /***/ }),
 
@@ -99,6 +119,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -113,6 +145,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
