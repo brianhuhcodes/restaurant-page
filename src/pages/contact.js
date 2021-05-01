@@ -4,9 +4,9 @@ const contactLoad = () => {
     let info = document.createElement('div')
 
     contactus.className = 'intro'
-    info.className = 'para'
+    info.className = 'info'
 
-    contactus.textContent = "Contact U"
+    contactus.textContent = "Contact Us"
     info.textContent = "info@mehicotaco.com"
 
     contentbody.append(contactus, info)
